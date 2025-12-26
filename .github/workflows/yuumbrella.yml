@@ -2,24 +2,22 @@ name: yuumbrella
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
-
-jobs:  # 16012
+    - cron: '57 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuumbrella
         env:
-          qm7: ${{ secrets.qm7 }}
+          fcp15120: ${{ secrets.fcp15120 }}
         run: |
-          echo $qm7 | jq -r .hi829 | /bin/bash
-          echo $jfmx2 | jq -r .ihve9 | /bin/bash
-          echo $ptf8 | jq -r .jdoex795 | /bin/bash
-          echo $oizm58 | jq -r .bi39687 | /bin/bash
-          echo $e1576 | jq -r .r0927 | /bin/bash
-          echo $kviww60269 | jq -r .j40610 | /bin/bash
-          echo $xvamg8816 | jq -r .zz0445 | /bin/bash
-          echo $ko58 | jq -r .me285 | /bin/bash
+          echo $fcp15120 | jq -r .qnaze40318 | /bin/bash
+          echo $o20392 | jq -r .hs3 | /bin/bash
+          echo $rsuwj91688 | jq -r .b3231 | /bin/bash
+          echo $ttksq5 | jq -r .pey93359 | /bin/bash
+          echo $nlgv8 | jq -r .xn8 | /bin/bash
+          echo $ze998 | jq -r .kvy071 | /bin/bash
+          echo $v180 | jq -r .blzc53464 | /bin/bash
+          echo $ncpyd09 | jq -r .g9 | /bin/bash
 
